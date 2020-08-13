@@ -2,7 +2,7 @@
   "name": "storeapi-backend",
   "version": "1.0.0",
   "engines": {
-    "node": "12.18.3"
+    "node": "12.x"
   },
   "description": "api para la prueba de bsale",
   "main": "index.js",
