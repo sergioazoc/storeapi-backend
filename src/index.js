@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Settings
-app.set('port', process.env.PORT || 3000);
+const PORT = process.env.PORT || 3000;
 
 // Middlewares
 app.use(express.json());
@@ -11,6 +11,6 @@ app.use(express.json());
 app.use(require('./routes/pruducts'));
 
 // Starting the server
-app.listen(app.get('port'), () => {
-  console.log(`Server on port ${app.get('port')}`);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
 });
