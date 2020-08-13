@@ -1,0 +1,19 @@
+{
+  "name": "storeapi-backend",
+  "version": "1.0.0",
+  "description": "api para la prueba de bsale",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Sergio Azócar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
