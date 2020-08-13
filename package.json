@@ -1,11 +1,14 @@
 {
   "name": "storeapi-backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.18.3"
+  },
   "description": "api para la prueba de bsale",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Sergio Azócar",
@@ -15,6 +18,6 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.4"
   }
 }
